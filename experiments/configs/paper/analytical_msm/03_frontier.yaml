@@ -1,0 +1,13 @@
+run_dir: artifacts/priors/paper/analytical_msm
+save_diagnostics: true
+num_query_points: 1024
+gamma_min: 1.0
+gamma_max: 5.0
+gamma_n: 50
+gamma_spacing: bounded_pareto
+pareto_seed_per_dgp: true
+query_sampling_mode: ordered_proxy
+query_random_seed: 0
+num_mc_samples: 128
+device: cpu
+pareto_beta: 0.0

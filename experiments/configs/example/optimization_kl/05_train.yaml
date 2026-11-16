@@ -1,0 +1,11 @@
+# Interface example, not scientific label/training budgets.
+data_path: artifacts/experiment_outputs/example_optimization_kl
+epochs: 3
+batch_size: 4
+m_prime: 8
+g: 4
+gpu: 0
+save_dir: artifacts/checkpoints/example_optimization_kl/models
+log_dir: artifacts/checkpoints/example_optimization_kl/logs
+seed: 42
+num_workers: 0

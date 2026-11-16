@@ -1,0 +1,26 @@
+run_dir: artifacts/experiment_outputs/example_optimization_rosenbaum
+dataset_ids_range:
+- 1
+- 10
+device: cpu
+save_diagnostics: false
+save_spline_params: true
+num_query_points: 8
+dgp_batch_size: 10
+lambda_min: 0.001
+lambda_max: 1.0
+lambda_n: 6
+lambda_spacing: log
+sensitivity_model: rosenbaum
+num_mc_samples_train: 32
+num_mc_samples_eval: 64
+max_steps: 20
+flow_num_bins: 8
+flow_tail_bound: 6.0
+flow_min_bin_width: 0.001
+flow_min_bin_height: 0.001
+flow_min_derivative: 0.001
+loss_reduction: per_dgp_sum
+warm_start_lambdas: 'True'
+early_stop: false
+query_random_seed: 0

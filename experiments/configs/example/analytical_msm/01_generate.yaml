@@ -1,0 +1,7 @@
+run_dir: artifacts/experiment_outputs/example_analytical_msm
+num_datasets: 10
+num_samples: 64
+num_features: 10
+base_seed: 42
+latent_dim: 1
+device: cpu

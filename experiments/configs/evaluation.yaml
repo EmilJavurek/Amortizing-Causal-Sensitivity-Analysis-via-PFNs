@@ -1,0 +1,19 @@
+# IDs and seed schedule are fixed before metric inspection, unchanged from the retained cohort.
+base_seed: 2000000
+inputs:
+  raw_root: artifacts/evaluation_data/observed/fresh_observed
+  normalized_root: artifacts/evaluation_data/observed/fresh_observed
+  kl_reference_root: artifacts/evaluation_data/references/kl_in_prior
+  dimension_raw_root: artifacts/evaluation_data/dimension
+cohorts:
+  msm: {first_id: 1, count: 512}
+  kl: {first_id: 1, count: 64}
+  neuralcsa: {first_id: 1, count: 32}
+  context: {first_id: 1, count: 64}
+# Retained cohort-wide empirical boundaries; do not refit after inspecting errors.
+overlap_quartile_edges:
+  - 0.000017640000000040953
+  - 0.12384015750000005
+  - 0.5
+  - 0.8761598424999999
+  - 0.9999823600000001

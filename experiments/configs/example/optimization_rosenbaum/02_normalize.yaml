@@ -1,0 +1,3 @@
+run_dir: artifacts/experiment_outputs/example_optimization_rosenbaum
+eps: 1.0e-06
+y_fit_column: outcome

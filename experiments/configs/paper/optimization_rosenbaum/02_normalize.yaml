@@ -1,0 +1,4 @@
+# Training-prior scaling uses pooled potential outcomes. Evaluation uses factual context outcomes.
+run_dir: artifacts/priors/paper/optimization_rosenbaum
+eps: 1.0e-06
+y_fit_column: pooled_potential_outcomes

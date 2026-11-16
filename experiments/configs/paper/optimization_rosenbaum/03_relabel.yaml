@@ -1,0 +1,4 @@
+source: artifacts/priors/paper/optimization_rosenbaum
+dest: artifacts/priors/paper/optimization_rosenbaum_dense
+device: cuda:0
+identity_point: true

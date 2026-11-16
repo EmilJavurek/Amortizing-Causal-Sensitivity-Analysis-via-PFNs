@@ -1,0 +1,15 @@
+# Interface example, not scientific label/training budgets.
+run_dir: artifacts/experiment_outputs/example_analytical_msm
+dataset_ids_range:
+- 1
+- 10
+num_workers: 1
+save_diagnostics: false
+gamma_min: 1.0
+gamma_max: 3.0
+gamma_n: 5
+gamma_spacing: linear
+num_query_points: 8
+num_mc_samples: 64
+query_random_seed: 0
+device: cpu

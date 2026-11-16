@@ -1,0 +1,4 @@
+source: artifacts/experiment_outputs/example_optimization_rosenbaum
+dest: artifacts/experiment_outputs/example_optimization_rosenbaum_dense
+device: cpu
+identity_point: true

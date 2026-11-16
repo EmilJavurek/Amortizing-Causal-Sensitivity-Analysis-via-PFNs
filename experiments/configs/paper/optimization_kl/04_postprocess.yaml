@@ -1,0 +1,4 @@
+run_dir: artifacts/priors/paper/optimization_kl
+repair_method: cumulative
+diagnostics_level: summary
+expected_min_rows_per_query: 10

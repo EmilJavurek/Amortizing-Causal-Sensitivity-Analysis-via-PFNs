@@ -1,0 +1,12 @@
+data_path: artifacts/experiment_outputs/example_optimization_rosenbaum_dense
+epochs: 4
+batch_size: 2
+m_prime: 4
+g: 4
+save_freq: 100
+num_workers: 0
+gpu: 0
+save_dir: artifacts/checkpoints/example_optimization_rosenbaum/models
+log_dir: artifacts/checkpoints/example_optimization_rosenbaum/logs
+seed: 42
+gamma_transform: log

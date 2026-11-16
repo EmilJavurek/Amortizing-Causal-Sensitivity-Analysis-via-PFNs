@@ -1,0 +1,35 @@
+CSA-PFN — Amortizing Causal Sensitivity Analysis via Prior-Data Fitted Networks
+
+Licensed under Apache License 2.0 (LICENSE), with third-party notices below.
+
+TabPFN
+------
+Built with TabPFN: https://github.com/PriorLabs/TabPFN
+Copyright (c) Prior Labs GmbH 2025.
+Copyright (c) 2026 Prior Labs GmbH
+
+src/tabpfn/ adapts source from TabPFN 2.0.9, with additional CSA-PFN model and
+training code. TabPFN source licensing follows the upstream Apache-2.0
+relicensing in commit bcb6e2aee8f8a741c8ced7088bc1bcf1646f4139:
+https://github.com/PriorLabs/TabPFN/pull/1271
+
+CausalFM
+--------
+This project builds on CausalFM. The comparison architecture in
+experiments/comparisons/causalfm.py is adapted from CausalFM-toolkit commit
+bb74ef729c70d274fe2bb422c3b0edff4754fa37, licensed under Apache-2.0.
+https://github.com/yccm/CausalFM-toolkit
+
+nflows
+------
+The rational-quadratic spline in src/setting_standard/frontier_optimization.py
+is adapted from nflows. Its MIT license and copyright notice are preserved in
+licenses/nflows-MIT.txt.
+https://github.com/bayesiains/nflows
+
+B-Learner
+---------
+The retained source in experiments/comparisons/vendor/BLearner/ is licensed
+under MIT. Copyright (c) 2022 CausalML. The full license is preserved there.
+
+The code license does not relicense external datasets or model weights.

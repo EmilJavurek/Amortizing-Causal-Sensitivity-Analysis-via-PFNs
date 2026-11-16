@@ -1,0 +1,11 @@
+# Interface example, not scientific label/training budgets.
+data_path: artifacts/experiment_outputs/example_analytical_msm
+epochs: 3
+batch_size: 4
+m_prime: 8
+g: 10
+gpu: 0
+save_dir: artifacts/checkpoints/example_analytical_msm/models
+log_dir: artifacts/checkpoints/example_analytical_msm/logs
+seed: 42
+num_workers: 0
